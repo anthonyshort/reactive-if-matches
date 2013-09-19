@@ -1,16 +1,16 @@
 # reactive-if-matches
 
-[![Build Status](https://secure.travis-ci.org/anthonyshort/media-query-listener.png?branch=master)](https://travis-ci.org/anthonyshort/media-query-listener)
+[![Build Status](https://secure.travis-ci.org/anthonyshort/reactive-if-matches.png?branch=master)](https://travis-ci.org/anthonyshort/reactive-if-matches)
 
 # Installation
 
-    component install anthonyshort/media-query-listener
+    component install anthonyshort/reactive-if-matches
 
 # API
 
 ```js
-  var listener = require('media-query-listener');
-  reactive.use(listener);
+  var matches = require('reactive-if-matches');
+  reactive.use(matches);
 ```
 
 Adds the binding:
