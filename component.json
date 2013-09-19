@@ -1,0 +1,13 @@
+{
+  "name": "anthonyshort/media-query-listener",
+  "description": "Easily watch a media query for changes. Supports Reactive.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/classes": "*"
+  },
+  "development": {
+    "component/assert": "*"
+  },
+  "license": "MIT"
+}

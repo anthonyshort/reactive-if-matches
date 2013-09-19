@@ -1,0 +1,14 @@
+language: node_js
+
+node_js:
+  - 0.10
+
+install:
+  - npm install mocha-phantomjs@2.0.3 component
+
+before_script:
+  - node_modules/.bin/component install --dev
+  - node_modules/.bin/component build --dev
+
+script:
+  - node node_modules/.bin/mocha-phantomjs /test/tests.html
