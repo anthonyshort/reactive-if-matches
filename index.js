@@ -22,7 +22,7 @@ function match(query, listener) {
  * @return {void}
  */
 
-exports.reactive = function(reactive) {
+module.exports = function(reactive) {
   reactive.bind('if-matches', function(el, query) {
     match(query, function(mq){
       if(mq.matches) {
@@ -34,9 +34,3 @@ exports.reactive = function(reactive) {
     });
   });
 };
-
-/**
- * @type {Function}
- */
-
-module.exports = match;

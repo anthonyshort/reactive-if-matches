@@ -1,4 +1,4 @@
-# media-query-listener
+# reactive-if-matches
 
 [![Build Status](https://secure.travis-ci.org/anthonyshort/media-query-listener.png?branch=master)](https://travis-ci.org/anthonyshort/media-query-listener)
 
@@ -8,17 +8,9 @@
 
 # API
 
-    var listen = require('media-query-listener');
-
-    listen('(max-width: 960px)', function(mq){
-      if(mq.matches) console.log('matches');
-    });
-
-# Reactive
-
 ```js
-  var listen = require('media-query-listener');
-  reactive.use(listen.reactive);
+  var listener = require('media-query-listener');
+  reactive.use(listener);
 ```
 
 Adds the binding:

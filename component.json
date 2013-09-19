@@ -1,6 +1,6 @@
 {
-  "name": "anthonyshort/media-query-listener",
-  "description": "Easily watch a media query for changes. Supports Reactive.",
+  "name": "anthonyshort/reactive-if-matches",
+  "description": "Easily watch a media query for changes",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
