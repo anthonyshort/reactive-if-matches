@@ -2,11 +2,11 @@
 
 [![Build Status](https://secure.travis-ci.org/anthonyshort/reactive-if-matches.png?branch=master)](https://travis-ci.org/anthonyshort/reactive-if-matches)
 
-# Installation
+## Installation
 
     component install anthonyshort/reactive-if-matches
 
-# API
+## API
 
 ```js
   var matches = require('reactive-if-matches');
@@ -21,6 +21,6 @@ Adds the binding:
 
 It will toggle a `show` and `hide` class.
 
-# License
+## License
 
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
